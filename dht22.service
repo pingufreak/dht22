@@ -1,0 +1,4 @@
+[Unit]
+Description=DHT22 Service
+[Service]
+ExecStart=/usr/bin/python3 /usr/local/bin/dht22.py

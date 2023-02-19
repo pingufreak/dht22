@@ -1,0 +1,7 @@
+# Installation als root
+cp dht22.service /etc/systemd/system/dht22.service
+cp dht22.timer /etc/systemd/system/dht22.timer
+cp dht22.py /usr/local/bin
+chown root:root /etc/systemd/system/dht22* /usr/local/bin/dht22*
+systemctl daemon-reload
+systemctl enable --now dht22.timer

@@ -1,0 +1,7 @@
+[Unit]
+Description=DHT22 alle 15 Sekunden
+[Timer]
+OnBootSec=15
+OnUnitActiveSec=15
+[Install]
+WantedBy=timers.target
