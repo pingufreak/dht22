@@ -53,7 +53,8 @@ from influxdb_client.client.influxdb_client import InfluxDBClient
 vGpio = 4
 vUri = "http://127.0.0.1:8086"
 vOrg = "privat"
-vToken = "M9yBRPO6_1Wa6SowYLBbx0KY3BxNydAiH-vxrh1e_8zpfie1hNyNDOd4bi3Olbt2w6WjRChUZez9FOCvgG3vLQ=="
+# token in git history ist zum testen ;)
+vToken = "..."
 vBucket = "dht22"
 vDebug = False
 
